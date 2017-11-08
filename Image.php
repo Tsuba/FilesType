@@ -95,14 +95,7 @@ class Image
 
         $this->url = $name;
     }
-    /*
-    public function getFile(){
-        return $this->file;
-    }
-    public function setFile(UploadedFile $file = null){
-        $file = $this->file;
-    }
-    */
+
     public function getUploadDir(){
         return 'uploads/img/test';
     }
