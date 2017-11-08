@@ -18,10 +18,7 @@ class DefaultController extends Controller
         if ($req->isMethod('POST')&& $form->handleRequest($req)->isValid()){
 
             $image->upload();
-            /*$em = $this->getDoctrine()->getManager();
-            $em->persist($image);
-            $em->flush();
-            */
+
         }
 
         return $this->render('OCPlatformBundle:Default:index.html.twig', array(
